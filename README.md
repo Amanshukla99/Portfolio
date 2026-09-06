@@ -1,16 +1,57 @@
-# React + Vite
+# Aman Shukla - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website built using React.js and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive design
+- Modern and clean UI
+- About Me section
+- Skills section
+- Projects showcase
+- Certificates section
+- Contact section
+- Resume download
+- Social media links
+- Mobile-friendly layout
+- Hover effects and smooth transitions
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- Tailwind CSS
+- HTML5
+- CSS3
+- Vite
+- Git & GitHub
 
-## Expanding the ESLint configuration
+## 📂 Projects
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Taste Haven
+A responsive restaurant website built with React.js and Tailwind CSS.
+
+### HireFlow
+A modern job and career platform website built with React.js and Tailwind CSS.
+
+## 📸 Portfolio
+
+This portfolio showcases my frontend development skills, projects, certificates, and experience with modern web technologies.
+
+## 📬 Contact
+
+**Aman Shukla**
+
+- GitHub: https://github.com/Amanshukla99
+- LinkedIn: https://www.linkedin.com/in/aman-kumar-shukla-66ba6b30a/
+- Email: aman803091827@gmail.com
+
+## 📄 Resume
+
+My resume is available through the Resume button on the portfolio website.
+
+## 👨‍💻 Author
+
+**Aman Shukla**
+
+Frontend Developer | React.js | JavaScript | Tailwind CSS
