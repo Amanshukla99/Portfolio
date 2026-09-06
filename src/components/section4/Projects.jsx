@@ -3,17 +3,17 @@ import React from 'react'
 const projects = [
   {
     title: "Taste haven",
-    image: "/projects/Screenshot 2026-09-04 104531.png",
+    image: "/photos/Screenshot 2026-09-04 104531.png",
     tech: "React • Tailwind CSS",
   },
   {
     title: "HireFlow",
-    image: "/projects/Screenshot 2026-09-04 105320.png",
+    image: "/photos/Screenshot 2026-09-04 105320.png",
     tech: "JavaScript • API",
   },
   {
     title: "Portfolio",
-    image: "/projects/Screenshot 2026-09-04 105534.png",
+    image: "/photos/Screenshot 2026-09-04 105534.png",
     tech: "React • CSS",
   },
 ];
