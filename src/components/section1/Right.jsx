@@ -26,7 +26,7 @@ const Right = () => {
 
     {/* Main Image */}
     <img
-      src="/public/photos/1788501007733.png"
+      src="/photos/1788501007733.png"
       alt="Aman"
       className="relative z-10 h-[650px] object-cover drop-shadow-[0_20px_35px_rgba(0,0,0,0.25)]"
     />
