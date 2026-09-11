@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const skills = [
   {
@@ -47,50 +47,49 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="max-w-7xl mx-auto px-8 py-24"
+      className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20 md:px-8 md:py-24 lg:px-10"
     >
-      {/* Heading */}
-
       <div className="text-center">
-
-        <p className="text-blue-600 font-semibold uppercase tracking-widest">
+        <p
+          className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-600 sm:text-base"
+        >
           My Skills
         </p>
 
-        <h1 className="text-5xl font-bold mt-3">
+        <h1
+          className="mt-3 text-3xl font-bold leading-tight tracking-tight sm:text-4xl md:text-5xl"
+        >
           Technologies I Work With
         </h1>
 
-        <p className="text-gray-500 mt-5 max-w-2xl mx-auto leading-8">
+        <p
+          className="mx-auto mt-4 max-w-2xl text-base leading-7 text-gray-500 sm:mt-5 sm:text-lg sm:leading-8"
+        >
           These are the technologies I use to build modern,
           responsive and user-friendly websites.
         </p>
-
       </div>
 
-      {/* Skills Grid */}
-
-      <div className="grid grid-cols-4 gap-8 mt-20">
-
+      <div
+        className="mt-12 grid grid-cols-2 gap-4 sm:mt-16 sm:gap-5 md:grid-cols-3 md:gap-6 lg:mt-20 lg:grid-cols-4 lg:gap-8"
+      >
         {skills.map((skill, index) => (
-
           <div
             key={index}
-            className="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center hover:-translate-y-2 hover:shadow-xl duration-300 cursor-pointer"
+            className="flex min-h-[160px] cursor-pointer flex-col items-center justify-center rounded-2xl bg-white p-5 text-center shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl sm:min-h-[180px] sm:rounded-3xl sm:p-7 md:min-h-[190px] lg:min-h-[200px] lg:p-8"
           >
+            <i
+              className={`${skill.icon} ${skill.color} text-5xl transition-transform duration-300 group-hover:scale-110 sm:text-6xl`}
+            ></i>
 
-            <i className={`${skill.icon} text-6xl ${skill.color}`}></i>
-
-            <h2 className="mt-6 text-xl font-semibold">
+            <h2
+              className="mt-4 text-base font-semibold sm:mt-6 sm:text-xl"
+            >
               {skill.name}
             </h2>
-
           </div>
-
         ))}
-
       </div>
-
     </section>
   );
 };

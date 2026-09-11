@@ -1,118 +1,132 @@
-import React from 'react'
+import React from "react";
 
 const Contact = () => {
   return (
     <section
       id="contact"
-      className="max-w-7xl mx-auto px-8 py-24"
+      className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20 md:px-8 md:py-24 lg:px-10"
     >
-      {/* Heading */}
-
       <div className="text-center">
-
-        <p className="text-blue-600 font-semibold uppercase tracking-widest">
+        <p
+          className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-600 sm:text-base"
+        >
           Contact Me
         </p>
 
-        <h1 className="text-5xl font-bold mt-3">
+        <h1
+          className="mt-3 text-3xl font-bold leading-tight tracking-tight sm:text-4xl md:text-5xl"
+        >
           Let's Work Together
         </h1>
 
-        <p className="text-gray-500 mt-5 max-w-2xl mx-auto leading-8">
+        <p
+          className="mx-auto mt-4 max-w-2xl text-base leading-7 text-gray-500 sm:mt-5 sm:text-lg sm:leading-8"
+        >
           Have a project in mind or want to collaborate?
           Feel free to contact me. I'm always open to new
           opportunities.
         </p>
-
       </div>
 
-      <div className="grid grid-cols-2 gap-16 mt-20">
-
-        {/* Left Side */}
-
-        <div>
-
-          <div className="flex items-center gap-5 bg-white shadow-lg rounded-2xl p-6 mb-6">
-
-            <div className="w-14 h-14 bg-blue-600 rounded-xl flex items-center justify-center">
-              <i className="ri-mail-fill text-white text-2xl"></i>
+      <div
+        className="mt-12 grid grid-cols-1 gap-8 sm:mt-16 sm:gap-10 md:grid-cols-2 md:gap-12 lg:mt-20 lg:gap-16"
+      >
+        <div className="w-full">
+          <div
+            className="mb-5 flex items-center gap-4 rounded-2xl bg-white p-5 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl sm:mb-6 sm:gap-5 sm:p-6"
+          >
+            <div
+              className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-600 sm:h-14 sm:w-14"
+            >
+              <i className="ri-mail-fill text-xl text-white sm:text-2xl"></i>
             </div>
 
-            <div>
-              <h2 className="font-bold text-xl">Email</h2>
-              <p className="text-gray-500">
+            <div className="min-w-0">
+              <h2 className="text-lg font-bold sm:text-xl">
+                Email
+              </h2>
+
+              <p className="mt-1 break-all text-sm text-gray-500 sm:text-base">
                 aman8103091827@gmail.com
               </p>
             </div>
-
           </div>
 
-          <div className="flex items-center gap-5 bg-white shadow-lg rounded-2xl p-6 mb-6">
-
-            <div className="w-14 h-14 bg-blue-600 rounded-xl flex items-center justify-center">
-              <i className="ri-phone-fill text-white text-2xl"></i>
+          <div
+            className="mb-5 flex items-center gap-4 rounded-2xl bg-white p-5 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl sm:mb-6 sm:gap-5 sm:p-6"
+          >
+            <div
+              className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-600 sm:h-14 sm:w-14"
+            >
+              <i className="ri-phone-fill text-xl text-white sm:text-2xl"></i>
             </div>
 
             <div>
-              <h2 className="font-bold text-xl">Phone</h2>
-              <p className="text-gray-500">
+              <h2 className="text-lg font-bold sm:text-xl">
+                Phone
+              </h2>
+
+              <p className="mt-1 text-sm text-gray-500 sm:text-base">
                 +91 9926831248
               </p>
             </div>
-
           </div>
 
-          <div className="flex items-center gap-5 bg-white shadow-lg rounded-2xl p-6">
-
-            <div className="w-14 h-14 bg-blue-600 rounded-xl flex items-center justify-center">
-              <i className="ri-map-pin-fill text-white text-2xl"></i>
+          <div
+            className="flex items-center gap-4 rounded-2xl bg-white p-5 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl sm:gap-5 sm:p-6"
+          >
+            <div
+              className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-600 sm:h-14 sm:w-14"
+            >
+              <i className="ri-map-pin-fill text-xl text-white sm:text-2xl"></i>
             </div>
 
             <div>
-              <h2 className="font-bold text-xl">Location</h2>
-              <p className="text-gray-500">
+              <h2 className="text-lg font-bold sm:text-xl">
+                Location
+              </h2>
+
+              <p className="mt-1 text-sm text-gray-500 sm:text-base">
                 Indore, Madhya Pradesh
               </p>
             </div>
-
           </div>
-
         </div>
 
-        {/* Right Side */}
-
-        <form className="bg-white shadow-xl rounded-3xl p-8">
-
+        <form
+          className="w-full rounded-2xl bg-white p-5 shadow-xl sm:rounded-3xl sm:p-7 md:p-8"
+        >
           <input
             type="text"
             placeholder="Your Name"
-            className="w-full border border-gray-300 rounded-xl p-4 mb-5 outline-none focus:border-blue-600"
+            className="mb-4 w-full rounded-xl border border-gray-300 p-3.5 text-sm outline-none transition-all duration-300 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 sm:mb-5 sm:p-4 sm:text-base"
           />
 
           <input
             type="email"
             placeholder="Your Email"
-            className="w-full border border-gray-300 rounded-xl p-4 mb-5 outline-none focus:border-blue-600"
+            className="mb-4 w-full rounded-xl border border-gray-300 p-3.5 text-sm outline-none transition-all duration-300 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 sm:mb-5 sm:p-4 sm:text-base"
           />
 
           <input
             type="text"
             placeholder="Subject"
-            className="w-full border border-gray-300 rounded-xl p-4 mb-5 outline-none focus:border-blue-600"
+            className="mb-4 w-full rounded-xl border border-gray-300 p-3.5 text-sm outline-none transition-all duration-300 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 sm:mb-5 sm:p-4 sm:text-base"
           />
 
           <textarea
             rows="6"
             placeholder="Your Message"
-            className="w-full border border-gray-300 rounded-xl p-4 mb-6 outline-none focus:border-blue-600 resize-none"
+            className="mb-5 w-full resize-none rounded-xl border border-gray-300 p-3.5 text-sm outline-none transition-all duration-300 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 sm:mb-6 sm:p-4 sm:text-base"
           ></textarea>
 
-          <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-xl font-semibold duration-300">
+          <button
+            type="submit"
+            className="w-full rounded-xl bg-blue-600 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-500/20 active:scale-[0.98] sm:py-4 sm:text-base"
+          >
             Send Message
           </button>
-
         </form>
-
       </div>
     </section>
   );
