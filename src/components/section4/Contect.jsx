@@ -87,7 +87,7 @@ const Contact = () => {
               </h2>
 
               <p className="mt-1 text-sm text-gray-500 sm:text-base">
-                Indore, Madhya Pradesh
+                Jabalpur, Madhya Pradesh
               </p>
             </div>
           </div>

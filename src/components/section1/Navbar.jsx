@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import resumePdf from "../../assets/Aman_Shukla_Resume_Final_Now.pdf";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -43,7 +44,7 @@ const Navbar = () => {
         </ul>
 
         <a
-          href="/Aman_Shukla_Resume.pdf"
+          href={resumePdf}
           target="_blank"
           rel="noreferrer"
           className="hidden rounded-xl bg-blue-600 px-5 py-2.5 text-sm font-semibold transition-all duration-300 hover:-translate-y-0.5 hover:bg-white hover:text-blue-600 hover:shadow-lg hover:shadow-blue-500/20 active:scale-95 md:block"
@@ -90,7 +91,7 @@ const Navbar = () => {
           </ul>
 
           <a
-            href="/Aman_Shukla_Resume.pdf"
+            href={resumePdf}
             target="_blank"
             rel="noreferrer"
             onClick={() => setMenuOpen(false)}

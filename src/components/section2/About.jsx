@@ -1,4 +1,5 @@
 import React from "react";
+import resumePdf from "../../assets/Aman_Shukla_Resume_Final_Now.pdf";
 
 const About = () => {
   return (
@@ -85,12 +86,12 @@ const About = () => {
           </div>
 
           <a
-            href="/assets/Aman_Shukla_Resume_Updated1.1.pdf"
-            target=""
+            href={resumePdf}
+            download="Aman_Shukla_Resume.pdf"
             rel="noreferrer"
             className="mt-7 inline-flex w-full items-center justify-center rounded-xl bg-blue-600 px-7 py-3 text-sm  hover:bg-white hover:text-blue-600  font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-500/30 active:scale-95 sm:mt-8 sm:w-auto sm:px-8 sm:text-base"
           >
-            Download Resume
+            Download Resume 
           </a>
         </div>
       </div>

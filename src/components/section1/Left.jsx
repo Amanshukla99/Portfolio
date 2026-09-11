@@ -33,17 +33,19 @@ const Left = () => {
       <div
         className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-5 md:mt-10 md:gap-6"
       >
-        <button
+        <a
+          href="#projects"
           className="w-full rounded-2xl bg-blue-600 px-7 py-3 text-base font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:text-blue-600 hover:border-blue-600 hover:border-2  active:scale-95 sm:w-auto sm:px-8 sm:text-lg"
         >
           View Projects
-        </button>
+        </a>
 
-        <button
+        <a
+          href="#contact"
           className="w-full rounded-2xl border-2 border-gray-300 px-7 py-3 text-base font-semibold text-blue-600 transition-all duration-300 hover:-translate-y-1  hover:bg-blue-600 hover:text-white hover:border-white active:scale-95 sm:w-auto sm:px-8 sm:text-lg"
         >
           Contact Me
-        </button>
+        </a>
       </div>
 
       <div className="mt-12 sm:mt-14 md:mt-16">
